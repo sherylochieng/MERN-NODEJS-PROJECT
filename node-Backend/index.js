@@ -1,5 +1,6 @@
 import cryptoRandomString from 'crypto-random-string';
 import chalk from 'chalk';
+import 'dotenv/config';
 
 
 console.log('CRYPTORANDOMSTRING DEPENDECY EXAMPLES:');
@@ -54,3 +55,8 @@ console.log(warning('Warning!'));
 const name = 'Sindre';
 console.log(chalk.green('Hello %s'), name);
 //=> 'Hello Sindre
+
+//DOTENV
+console.log('DOTENV:');
+
+console.log(process.env)
