@@ -1,0 +1,30 @@
+{
+  "name": "my-first-node",
+  "version": "1.0.0",
+  "description": "first-node project",
+  "keywords": [
+    "first",
+    "project",
+    "node",
+    "basic"
+  ],
+  "homepage": "https://github.com/sherylochieng/MERN-NODEJS-PROJECT#readme",
+  "bugs": {
+    "url": "https://github.com/sherylochieng/MERN-NODEJS-PROJECT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherylochieng/MERN-NODEJS-PROJECT.git"
+  },
+  "license": "ISC",
+  "author": "sheryl",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "crypto-random-string": "^5.0.0"
+  }
+}
