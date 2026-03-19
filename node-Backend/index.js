@@ -1,6 +1,7 @@
 import cryptoRandomString from 'crypto-random-string';
 import chalk from 'chalk';
 import 'dotenv/config';
+import figlet from "figlet";
 
 
 console.log('CRYPTORANDOMSTRING DEPENDECY EXAMPLES:');
@@ -60,3 +61,11 @@ console.log(chalk.green('Hello %s'), name);
 console.log('DOTENV:');
 
 console.log(process.env)
+
+//FIGLET
+async function doStuff() {
+  const text = await figlet.text("Hello World!!");
+  console.log(text);
+}
+
+doStuff();
